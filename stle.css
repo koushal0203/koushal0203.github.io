@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
