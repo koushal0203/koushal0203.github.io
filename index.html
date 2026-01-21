@@ -2,100 +2,174 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koushal Kumar | Junior Frontend Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-    <h1>Koushal Kumar</h1>
-    <h3>Junior Frontend Developer</h3>
-</header>
-
-<section>
-    <p>
-        I am a BCA graduate and junior frontend developer with hands-on experience
-        building real JavaScript projects using DOM manipulation, event handling,
-        and APIs. I focus on clean logic and functional UI.
-    </p>
-</section>
-
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>DOM Manipulation</li>
-        <li>Fetch API</li>
-        <li>Git & GitHub</li>
-        <li>react.js (currently learning)</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Projects</h2>
-
-    <div>
-        <h3>Quote Generator (API)</h3>
-        <p>
-            Fetches random quotes from an external API with loading and error handling.
-            Demonstrates asynchronous JavaScript and dynamic DOM updates.
+    <!-- Hero Section -->
+    <header>
+        <h1>Koushal Kumar</h1>
+        <h3>Junior Frontend Developer</h3>
+        <p class="hero-subtitle">
+            BCA graduate building functional web applications with HTML, CSS, JavaScript, 
+            and modern web technologies. Passionate about clean code and great user experiences.
         </p>
-        <a href="https://github.com/koushal0203/quote-generator-js.git" target="_blank">GitHub Repo</a>
+        <a href="#projects" class="cta-button">View My Work</a>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Section -->
+        <section class="fade-in">
+            <h2 id="about">About Me</h2>
+            <p class="about-text">
+                I am a BCA graduate and junior frontend developer with hands-on experience
+                building real JavaScript projects using DOM manipulation, event handling,
+                and APIs. I focus on clean logic and functional UI.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="fade-in">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h4>HTML5</h4>
+                </div>
+                <div class="skill-item">
+                    <h4>CSS3</h4>
+                </div>
+                <div class="skill-item">
+                    <h4>JavaScript</h4>
+                </div>
+                <div class="skill-item">
+                    <h4>DOM Manipulation</h4>
+                </div>
+                <div class="skill-item">
+                    <h4>Fetch API</h4>
+                </div>
+                <div class="skill-item">
+                    <h4>Git & GitHub</h4>
+                </div>
+                <div class="skill-item react-skill">
+                    <h4>React.js</h4>
+                    <span class="learning">Currently Learning</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="fade-in">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <h3>Quote Generator (API)</h3>
+                    <p>
+                        Fetches random quotes from an external API with loading and error handling.
+                        Demonstrates asynchronous JavaScript and dynamic DOM updates.
+                    </p>
+                    <a href="https://github.com/koushal0203/quote-generator-js" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+
+                <div class="project-card fade-in">
+                    <h3>To-Do List App</h3>
+                    <p>
+                        Interactive to-do app allowing users to add, delete, and mark tasks
+                        as completed using pure JavaScript.
+                    </p>
+                    <a href="https://github.com/koushal0203/todo-app-js" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+
+                <div class="project-card fade-in">
+                    <h3>Counter App</h3>
+                    <p>
+                        Counter application with increase, decrease, and reset functionality
+                        using JavaScript state management.
+                    </p>
+                    <a href="https://github.com/koushal0203/counter-app-js" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+
+                <div class="project-card fade-in">
+                    <h3>Form Validation</h3>
+                    <p>
+                        Client-side form validation with input checks and controlled submission.
+                    </p>
+                    <a href="https://github.com/koushal0203/form-validation-js" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+
+                <div class="project-card fade-in">
+                    <h3>Interactive Show/Hide</h3>
+                    <p>
+                        Simple interactive UI that toggles content visibility using JavaScript.
+                    </p>
+                    <a href="https://github.com/koushal0203/interactive-site-js" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="fade-in">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><strong>koushaltak20@gmail.com</strong></p>
+                </div>
+                <div class="contact-item">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/koushal0203" target="_blank">
+                        github.com/koushal0203
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/koushal-kumar-9a8379268" target="_blank">
+                        View Profile
+                    </a>
+                </div>
+            </div>
+        </section>
     </div>
 
-    <div>
-        <h3>To-Do List App</h3>
-        <p>
-            Interactive to-do app allowing users to add, delete, and mark tasks
-            as completed using JavaScript.
-        </p>
-        <a href="https://github.com/koushal0203/todo-app-js.git" target="_blank">GitHub Repo</a>
-    </div>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
 
-    <div>
-        <h3>Counter App</h3>
-        <p>
-            Counter application with increase, decrease, and reset functionality
-            using JavaScript state management.
-        </p>
-        <a href="https://github.com/koushal0203/counter-app-js.git" target="_blank">GitHub Repo</a>
-    </div>
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
 
-    <div>
-        <h3>Form Validation</h3>
-        <p>
-            Client-side form validation with input checks and controlled submission.
-        </p>
-        <a href="https://github.com/koushal0203/form-validation-js.git" target="_blank">GitHub Repo</a>
-    </div>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
 
-    <div>
-        <h3>Interactive Show/Hide Page</h3>
-        <p>
-            Simple interactive UI that toggles content visibility using JavaScript.
-        </p>
-        <a href="https://github.com/koushal0203/interactive-site-js.git" target="_blank">GitHub Repo</a>
-    </div>
-</section>
-
-<section>
-    <h2>Contact</h2>
-    <p>Email: <strong>(koushaltak20@gmail.com)</strong></p>
-    <p>
-        GitHub:
-        <a href="https://github.com/koushal0203" target="_blank">
-            github.com/koushal0203
-        </a>
-    </p>
-    <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/koushal-kumar-9a8379268" target="_blank">
-            koushal-kumar
-        </a>
-    </p>
-</section>
-
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
