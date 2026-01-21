@@ -34,25 +34,25 @@
         <section class="fade-in">
             <h2>Skills</h2>
             <div class="skills-grid">
-                <div class="skill-item">
+                <div class="skill-item html">
                     <h4>HTML5</h4>
                 </div>
-                <div class="skill-item">
+                <div class="skill-item css">
                     <h4>CSS3</h4>
                 </div>
-                <div class="skill-item">
+                <div class="skill-item js">
                     <h4>JavaScript</h4>
                 </div>
-                <div class="skill-item">
+                <div class="skill-item dom">
                     <h4>DOM Manipulation</h4>
                 </div>
-                <div class="skill-item">
+                <div class="skill-item api">
                     <h4>Fetch API</h4>
                 </div>
-                <div class="skill-item">
+                <div class="skill-item git">
                     <h4>Git & GitHub</h4>
                 </div>
-                <div class="skill-item react-skill">
+                <div class="skill-item react">
                     <h4>React.js</h4>
                     <span class="learning">Currently Learning</span>
                 </div>
@@ -63,79 +63,66 @@
         <section id="projects" class="fade-in">
             <h2>Featured Projects</h2>
             <div class="projects-grid">
-                <div class="project-card fade-in">
-                    <h3>Quote Generator (API)</h3>
-                    <p>
-                        Fetches random quotes from an external API with loading and error handling.
-                        Demonstrates asynchronous JavaScript and dynamic DOM updates.
-                    </p>
-                    <a href="https://github.com/koushal0203/quote-generator-js" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>📝 Quote Generator (API)</h3>
+                    <p>Fetches random quotes from external API with loading states, error handling, and dynamic DOM updates.</p>
+                    <a href="https://github.com/koushal0203/quote-generator-js" target="_blank" rel="noopener noreferrer" class="project-link">
                         View on GitHub →
                     </a>
                 </div>
 
-                <div class="project-card fade-in">
-                    <h3>To-Do List App</h3>
-                    <p>
-                        Interactive to-do app allowing users to add, delete, and mark tasks
-                        as completed using pure JavaScript.
-                    </p>
-                    <a href="https://github.com/koushal0203/todo-app-js" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>✅ To-Do List App</h3>
+                    <p>Interactive app for adding, deleting, and marking tasks complete using pure JavaScript.</p>
+                    <a href="https://github.com/koushal0203/todo-app-js" target="_blank" rel="noopener noreferrer" class="project-link">
                         View on GitHub →
                     </a>
                 </div>
 
-                <div class="project-card fade-in">
-                    <h3>Counter App</h3>
-                    <p>
-                        Counter application with increase, decrease, and reset functionality
-                        using JavaScript state management.
-                    </p>
-                    <a href="https://github.com/koushal0203/counter-app-js" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>🔢 Counter App</h3>
+                    <p>State management app with increase, decrease, and reset functionality.</p>
+                    <a href="https://github.com/koushal0203/counter-app-js" target="_blank" rel="noopener noreferrer" class="project-link">
                         View on GitHub →
                     </a>
                 </div>
 
-                <div class="project-card fade-in">
-                    <h3>Form Validation</h3>
-                    <p>
-                        Client-side form validation with input checks and controlled submission.
-                    </p>
-                    <a href="https://github.com/koushal0203/form-validation-js" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>📋 Form Validation</h3>
+                    <p>Client-side form validation with real-time input checks and submission control.</p>
+                    <a href="https://github.com/koushal0203/form-validation-js" target="_blank" rel="noopener noreferrer" class="project-link">
                         View on GitHub →
                     </a>
                 </div>
 
-                <div class="project-card fade-in">
-                    <h3>Interactive Show/Hide</h3>
-                    <p>
-                        Simple interactive UI that toggles content visibility using JavaScript.
-                    </p>
-                    <a href="https://github.com/koushal0203/interactive-site-js" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>👁️ Interactive Show/Hide</h3>
+                    <p>Dynamic UI toggling content visibility with smooth JavaScript interactions.</p>
+                    <a href="https://github.com/koushal0203/interactive-site-js" target="_blank" rel="noopener noreferrer" class="project-link">
                         View on GitHub →
                     </a>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
+        <!-- Contact Section - ALL LINKS FIXED -->
         <section class="fade-in">
             <h2>Contact</h2>
             <div class="contact-grid">
-                <div class="contact-item">
-                    <h3>Email</h3>
+                <div class="contact-item email">
+                    <h3>📧 Email</h3>
                     <p><strong>koushaltak20@gmail.com</strong></p>
                 </div>
-                <div class="contact-item">
-                    <h3>GitHub</h3>
-                    <a href="https://github.com/koushal0203" target="_blank">
+                <div class="contact-item github">
+                    <h3>💻 GitHub</h3>
+                    <a href="https://github.com/koushal0203" target="_blank" rel="noopener noreferrer">
                         github.com/koushal0203
                     </a>
                 </div>
-                <div class="contact-item">
-                    <h3>LinkedIn</h3>
-                    <a href="https://www.linkedin.com/in/koushal-kumar-9a8379268" target="_blank">
-                        View Profile
+                <div class="contact-item linkedin">
+                    <h3>💼 LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/koushal-kumar-9a8379268" target="_blank" rel="noopener noreferrer">
+                        View Profile →
                     </a>
                 </div>
             </div>
@@ -143,7 +130,7 @@
     </div>
 
     <script>
-        // Smooth scrolling for anchor links
+        // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -153,23 +140,16 @@
             });
         });
 
-        // Fade in animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
+        // Fade in animations
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
                 }
             });
-        }, observerOptions);
+        }, { threshold: 0.1 });
 
-        document.querySelectorAll('.fade-in').forEach(el => {
-            observer.observe(el);
-        });
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
     </script>
 </body>
 </html>
